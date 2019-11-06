@@ -63,26 +63,32 @@ main{
 }
 
 @media screen and (max-width:768px) {
- main{
+
+main{
   width: 100%;
- }
-
- .step-box{
-  float: none;
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative;
-  border: 1px solid #eee;
- }
-
-
-
- .step-num{
-  padding: 3px;
- }
-
- .title{
-  margin: 15px 0 5px;
- }
+  margin: 50px 0;
 }
+
+.step-box{
+  float: none;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.step-box:nth-child(1){
+  margin-bottom: 20px;
+}
+
+.step-box:nth-child(2){
+  margin-bottom: 20px;
+}
+
+.step-box:last-child{
+  margin: 0 auto;
+}
+
+.title{
+  margin: 0 auto;
+}
+
